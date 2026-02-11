@@ -97,9 +97,6 @@ This enables data-driven decision-making for retention campaigns.
 
 ---
 
-## 📂 Repository Structure
-
-
 ## 💼 Business Impact
 
 - Early identification of churn-prone customers  
