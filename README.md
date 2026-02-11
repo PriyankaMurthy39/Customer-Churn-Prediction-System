@@ -1,114 +1,128 @@
-📊 Customer Churn Prediction & Retention Strategy System
-🚀 Project Overview
+# 🚀 Customer Churn Intelligence Platform  
+### ML-Driven Retention Analytics System
 
-Customer churn is a major business problem in telecom, banking, SaaS, and subscription-based companies.
+---
 
-This project predicts whether a customer is likely to churn and helps businesses take preventive actions to retain them.
+## 📌 Overview
 
-The system includes:
+Customer churn significantly impacts revenue in subscription-based industries such as Telecom, Banking, SaaS, and Insurance.  
 
-Machine Learning Model
+This project develops an end-to-end Machine Learning system that predicts customer churn and provides business insights to support proactive retention strategies.
 
-Business Dashboard
+---
 
-Web-based Prediction Interface
+## 🎯 Objectives
 
-🎯 Objective
+- Predict the probability of customer churn
+- Identify major factors influencing churn
+- Visualize business insights through dashboards
+- Deploy a real-time prediction web application
 
-Predict customers who are likely to leave
+---
 
-Analyze key churn factors
+## 🏗️ Project Workflow
 
-Help business teams take data-driven retention decisions
+1. Data Collection  
+2. Data Cleaning & Preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Engineering  
+5. Model Training  
+6. Model Evaluation  
+7. Deployment  
+8. Dashboard Visualization  
 
-🛠️ Tech Stack
+---
 
-Python
+## 🧠 Machine Learning Models Used
 
-Pandas, NumPy
+- Logistic Regression  
+- Random Forest Classifier  
+- XGBoost Classifier  
 
-Scikit-Learn
+### 📊 Evaluation Metrics
 
-XGBoost
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- ROC-AUC Score  
 
-SQL (for data extraction concept)
+Model selection was based on Recall and AUC to prioritize high-risk customer detection.
 
-Power BI / Dashboard
+---
 
-Flask (Web App)
+## 📊 Business Dashboard Insights
 
-Joblib (Model Deployment)
+The dashboard provides:
 
-🔍 Machine Learning Workflow
+- Overall churn rate  
+- Revenue at risk estimation  
+- Contract type analysis  
+- Tenure vs churn distribution  
+- Payment method influence  
+- Customer segmentation  
 
-Data Cleaning & Preprocessing
+This enables data-driven decision-making for retention campaigns.
 
-Exploratory Data Analysis (EDA)
+---
 
-Feature Engineering
+## 🌐 Web Application Features
 
-Model Building:
+- User-friendly customer input form  
+- Real-time churn prediction  
+- Probability score output  
+- Pre-trained ML model integration  
+- Deployment-ready architecture  
 
-Logistic Regression
+---
 
-Random Forest
+## 🛠️ Tech Stack
 
-XGBoost
+### Programming & ML
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- XGBoost  
 
-Model Evaluation:
+### Deployment
+- Flask  
+- Joblib  
 
-Accuracy
+### Visualization
+- Power BI / Matplotlib  
 
-Precision
+### Version Control
+- Git & GitHub  
 
-Recall
+---
 
-ROC-AUC
+## 📂 Repository Structure
 
-Model Deployment using Flask
 
-📊 Business Dashboard Insights
+## 💼 Business Impact
 
-The dashboard includes:
+- Early identification of churn-prone customers  
+- Reduced revenue loss  
+- Improved targeting strategies  
+- Scalable ML pipeline for production  
 
-📈 Churn Rate Overview
+---
 
-📊 Monthly Charges vs Churn
+## 🔮 Future Enhancements
 
-📉 Contract Type Analysis
+- Cloud deployment (AWS / Render)  
+- API integration  
+- Automated retention recommendation engine  
+- Model monitoring system  
 
-👥 Customer Tenure Distribution
+---
 
-🔎 High-Risk Customer Segmentation
+## 👩‍💻 Developed By
 
-💡 Business Impact
+**Priyanka Murthy**  
+AI & Data Science Engineer  
 
-✔ Identify high-risk customers
-✔ Reduce revenue loss
-✔ Improve customer retention strategy
-✔ Data-driven marketing campaigns
+---
 
-🌐 Web Application
-
-The web app allows:
-
-Entering customer details
-
-Predicting churn probability
-
-Getting retention suggestions
-
-🔮 Future Improvements
-
-Real-time data integration
-
-Automated email retention triggers
-
-Deployment on AWS / Render
-
-API Integration
-
-👩‍💻 Author
-
-Priyanka Murthy
-AI & Data Science Student
+⭐ If you found this project interesting, feel free to give it a star!
